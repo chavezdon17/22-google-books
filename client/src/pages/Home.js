@@ -7,7 +7,7 @@ class Home extends Component {
     search: "",
   };
   searchBooks = () => {
-    Api.googleBooks(this.state.search)
+    Api.getSearchedBooks(this.state.search)
       .then((res) => {
         console.log("this is res.data", res.data.items);
         this.setState({
