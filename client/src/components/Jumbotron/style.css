@@ -1,0 +1,11 @@
+.jumbotron {
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
+
+.myText {
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
